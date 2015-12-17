@@ -18,7 +18,7 @@ var callback = function(err, res){
 var bp = require('braspag');
 
 var braspag = new bp({
-  env: "sandbox", // consulta(ambiente de produção) ou sandbox(ambiente de teste)
+  env: "sandbox", // production(ambiente de produção), homolog(ambiente de homologação) ou sandbox(ambiente de teste)
   proxy: "http://xyz:3190",
   merchantId: "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
   merchantKey: "XXXXXXXXXDCYWUNFPTSGVRXIWOWDNXXXXXXXXXX"
